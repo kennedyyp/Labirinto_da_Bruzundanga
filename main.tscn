@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://dqlv3p67eqwpk"]
+
+[ext_resource type="Script" uid="uid://bfsr7lbypl1ev" path="res://main.gd" id="1_ig7tw"]
+[ext_resource type="Texture2D" uid="uid://ln61nsjhccei" path="res://reaçao A/1.svg" id="2_0xm2m"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_0xm2m"]
+texture = ExtResource("2_0xm2m")
+
+[node name="Node2D" type="Node2D" unique_id=1313318092]
+script = ExtResource("1_ig7tw")
+
+[node name="Panel" type="Panel" parent="." unique_id=394772391]
+offset_right = 1155.0
+offset_bottom = 648.0
+theme_override_styles/panel = SubResource("StyleBoxTexture_0xm2m")
